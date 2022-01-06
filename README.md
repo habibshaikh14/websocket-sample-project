@@ -2,8 +2,8 @@
 This is a sample project for learning the implementation of websockets between front-end and back-end.
 
 :::Tech Stack:::
-Front-End: Angular
-Back-End: Spring
+- Front-End: Angular
+- Back-End: Spring
 
 :::Setup process:::
 1. Clone the repository.
