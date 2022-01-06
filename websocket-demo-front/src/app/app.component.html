@@ -1,0 +1,16 @@
+<noscript>
+  <h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+    enabled. Please enable
+    Javascript and reload this page!
+  </h2>
+</noscript>
+<div style=" display: flex; flex-flow: column; align-items: center;" id="main-content">
+  <form>
+    <p>WebSocket connection</p>
+    <button (click)="connect()" style="margin-right: 20px;" type="submit">Connect</button>
+    <button (click)="disconnect()" type="submit">Disconnect</button>
+  </form>
+  <h2>The message is: {{ greeting }}</h2>
+</div>
+
+<router-outlet></router-outlet>

@@ -25,80 +25,80 @@ hs_err_pid*
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/demo-front/my-websocket-demo-app/dist
-/demo-front/my-websocket-demo-app/tmp
-/demo-front/my-websocket-demo-app/out-tsc
+/websocket-demo-front/dist
+/websocket-demo-front/tmp
+/websocket-demo-front/out-tsc
 # Only exists if Bazel was run
-/demo-front/my-websocket-demo-app/bazel-out
+/websocket-demo-front/bazel-out
 
 # dependencies
-/demo-front/my-websocket-demo-app/node_modules
+/websocket-demo-front/node_modules
 
 # profiling files
-/demo-front/my-websocket-demo-app/chrome-profiler-events*.json
+/websocket-demo-front/chrome-profiler-events*.json
 
 # IDEs and editors
-/demo-front/my-websocket-demo-app/.idea
-/demo-front/my-websocket-demo-app/.project
-/demo-front/my-websocket-demo-app/.classpath
-/demo-front/my-websocket-demo-app/.c9/
+/websocket-demo-front/.idea
+/websocket-demo-front/.project
+/websocket-demo-front/.classpath
+/websocket-demo-front/.c9/
 *.launch
-/demo-front/my-websocket-demo-app/.settings/
+/websocket-demo-front/.settings/
 *.sublime-workspace
 
 # IDE - VSCode
-/demo-front/my-websocket-demo-app/.vscode/*
-!/demo-front/my-websocket-demo-app/.vscode/settings.json
-!/demo-front/my-websocket-demo-app/.vscode/tasks.json
-!/demo-front/my-websocket-demo-app/.vscode/launch.json
-!/demo-front/my-websocket-demo-app/.vscode/extensions.json
-/demo-front/my-websocket-demo-app/.history/*
+/websocket-demo-front/.vscode/*
+!/websocket-demo-front/.vscode/settings.json
+!/websocket-demo-front/.vscode/tasks.json
+!/websocket-demo-front/.vscode/launch.json
+!/websocket-demo-front/.vscode/extensions.json
+/websocket-demo-front/.history/*
 
 # misc
-/demo-front/my-websocket-demo-app/.angular/cache
-/demo-front/my-websocket-demo-app/.sass-cache
-/demo-front/my-websocket-demo-app/connect.lock
-/demo-front/my-websocket-demo-app/coverage
-/demo-front/my-websocket-demo-app/libpeerconnection.log
-/demo-front/my-websocket-demo-app/npm-debug.log
-/demo-front/my-websocket-demo-app/yarn-error.log
-/demo-front/my-websocket-demo-app/testem.log
-/demo-front/my-websocket-demo-app/typings
+/websocket-demo-front/.angular/cache
+/websocket-demo-front/.sass-cache
+/websocket-demo-front/connect.lock
+/websocket-demo-front/coverage
+/websocket-demo-front/libpeerconnection.log
+/websocket-demo-front/npm-debug.log
+/websocket-demo-front/yarn-error.log
+/websocket-demo-front/testem.log
+/websocket-demo-front/typings
 
 # System Files
-/demo-front/my-websocket-demo-app/.DS_Store
-/demo-front/my-websocket-demo-app/Thumbs.db
+/websocket-demo-front/.DS_Store
+/websocket-demo-front/Thumbs.db
 
-/demo-back/websocket-demo/HELP.md
-/demo-back/websocket-demo/target/
-!/demo-back/websocket-demo/.mvn/wrapper/maven-wrapper.jar
+/websocket-demo-back/HELP.md
+/websocket-demo-back/target/
+!/websocket-demo-back/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
 ### STS ###
-/demo-back/websocket-demo/.apt_generated
-/demo-back/websocket-demo/.classpath
-/demo-back/websocket-demo/.factorypath
-/demo-back/websocket-demo/.project
-/demo-back/websocket-demo/.settings
-/demo-back/websocket-demo/.springBeans
-/demo-back/websocket-demo/.sts4-cache
+/websocket-demo-back/.apt_generated
+/websocket-demo-back/.classpath
+/websocket-demo-back/.factorypath
+/websocket-demo-back/.project
+/websocket-demo-back/.settings
+/websocket-demo-back/.springBeans
+/websocket-demo-back/.sts4-cache
 
 ### IntelliJ IDEA ###
-/demo-back/websocket-demo/.idea
+/websocket-demo-back/.idea
 *.iws
 *.iml
 *.ipr
 
 ### NetBeans ###
-/demo-back/websocket-demo//nbproject/private/
-/demo-back/websocket-demo//nbbuild/
-/demo-back/websocket-demo//dist/
-/demo-back/websocket-demo//nbdist/
-/demo-back/websocket-demo//.nb-gradle/
-/demo-back/websocket-demo/build/
+/websocket-demo-back//nbproject/private/
+/websocket-demo-back//nbbuild/
+/websocket-demo-back//dist/
+/websocket-demo-back//nbdist/
+/websocket-demo-back//.nb-gradle/
+/websocket-demo-back/build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
-/demo-back/websocket-demo/.vscode/
+/websocket-demo-back/.vscode/
